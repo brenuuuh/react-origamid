@@ -3,13 +3,6 @@
     grid-row: span 2;
 }
 
-@media(max-width: 40rem) {
-    .photo:nth-child(2) {
-        grid-column: initial;
-        grid-row: initial;
-    }
-}
-
 .photo {
     display: grid;
     border-radius: 0.2rem;
@@ -43,4 +36,11 @@
 
 .photo:hover .visualizacao {
     display: flex;
+}
+
+@media(max-width: 40rem) {
+    .photo:nth-child(2) {
+        grid-column: initial;
+        grid-row: initial;
+    }
 }

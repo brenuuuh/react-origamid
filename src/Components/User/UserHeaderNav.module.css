@@ -107,12 +107,13 @@
 .navMobile button {
     display: flex;
     align-items: center;
-    background: none;
+    background: white;
     width: 100%;
     border: none;
     border-bottom: 1px solid #eee;
     padding: 0.5rem 0;
     cursor: pointer;
+    margin-left: 0.1rem;
 }
 
 .navMobile a:hover svg > *,
